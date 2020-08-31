@@ -13,11 +13,8 @@ const chromeOptions = {
 // =========================
 // Sauce RDC specific config
 // =========================
-//config.user = process.env.SAUCE_USERNAME;
-//config.key = process.env.SAUCE_ACCESS_KEY;
-
-config.user = "Psubbaiah";
-config.key = "d057eaf4-a603-4e43-843e-4ef70d645729";
+config.user = process.env.SAUCE_USERNAME;
+config.key = process.env.SAUCE_ACCESS_KEY;
 // If you run your tests on Sauce Labs you can specify the region you want to run your tests
 // in via the `region` property. Available short handles for regions are `us` (default) and `eu`.
 // These regions are used for the Sauce Labs VM cloud and the Sauce Labs Real Device Cloud.
